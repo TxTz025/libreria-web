@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 0;
+}
+
+nav a.nav-link {
+    color: #555;
+}
+
+nav a.nav-link:hover {
+    color: #007bff;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}

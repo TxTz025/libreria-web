@@ -1,0 +1,16 @@
+<div class="container mt-5">
+    <h2>Carrito de Compras</h2>
+    <form action="procesar_carrito.php" method="post">
+        <div class="form-group">
+            <label for="libro">Seleccione un libro:</label>
+            <select class="form-control" id="libro" name="libro">
+                <!-- Aquí irán las opciones de libros cargadas desde la base de datos -->
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" class="form-control" id="cantidad" name="cantidad" min="1" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Agregar al Carrito</button>
+    </form>
+</div>
